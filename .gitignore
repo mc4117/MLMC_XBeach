@@ -1,0 +1,13 @@
+.DS_Store
+*.nc
+*.pyc
+*.bcf
+archived/
+bocombe_cdt_2_mc_full/
+xbeach-run/
+xbeach-tools/
+job_*
+slope_1d_mc/
+slope_2d_mc/
+morphological_mc/
+MLMC_output.csv
