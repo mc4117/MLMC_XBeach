@@ -23,74 +23,74 @@ Simulation scripts
     
     Reproduce MLMC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python slope_1d_files/slope_1d_mlmc.py
-```
-    Note use init_test = True for preliminary run and eps_test = True for full run.
+   ```
+    N.B. use init_test = True for preliminary run and eps_test = True for full run.
 
     Reproduce MC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python slope_1d_files/slope_1d_mc.py
-```
-    Note this file must be run multiple times to achieve a sufficient number of samples.
+   ```
+    N.B. this file must be run multiple times to achieve a sufficient number of samples.
 
 * Section 3.2.2: 2D Test Case
     
-    Reproduce MLMC results with:
+   Reproduce MLMC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python slope_2d_files/slope_2d_mlmc.py
-```
-    Note use init_test = True for preliminary run and eps_test = True for full run.
+   ```
+    N.B. use init_test = True for preliminary run and eps_test = True for full run.
 
     Reproduce MC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python slope_2d_files/slope_2d_mc.py
-```
-    Note this file must be run multiple times to achieve a sufficient number of samples.
+   ```
+    N.B. this file must be run multiple times to achieve a sufficient number of samples.
    
  * Section 3.2.3: Morphology Test Case
     
     Reproduce MLMC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python morphological_files/morph_mlmc.py
-```
-    Note use init_test = True for preliminary run and eps_test = True for full run.
+   ```
+    N.B. use init_test = True for preliminary run and eps_test = True for full run.
 
     Reproduce MC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python  morphological_files/morph_mc.py
-```
-    Note this file must be run multiple times to achieve a sufficient number of samples.
+   ```
+    N.B. this file must be run multiple times to achieve a sufficient number of samples.
     
  * Section 3.2.4: Boscombe Beach Test Case
     
     Reproduce MLMC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python boscombe_files/boscombe_mlmc.py
-```
-    Note use init_test = True for preliminary run and eps_test = True for full run.
+   ```
+    N.B. use init_test = True for preliminary run and eps_test = True for full run.
 
     Reproduce MC results with:
 
-```
-#!bash
+   ```
+   #!bash
     $ python  boscombe_files/boscombe_mc.py
-```
-    Note this file must be run multiple times to achieve a sufficient number of samples.
+   ```
+    N.B. this file must be run multiple times to achieve a sufficient number of samples.
     
  * Section 4: Cumulative Distribution Function
  
-   Reproduce the Cumulative Distribution Functions using the python files in the CDF folder of this repository. Note before these files can be run, it is necessary to generate outputs from the MLMC algorithm (using only one epsilon value) and the MC algorithm, using the files discussed for Section 3.2.    
+   Reproduce the Cumulative Distribution Functions using the python files in the CDF folder of this repository. Note before these files can be run, it is necessary to generate outputs from the MLMC algorithm (using only the smallest epsilon value) and the MC algorithm, using the files discussed for Section 3.2.    
