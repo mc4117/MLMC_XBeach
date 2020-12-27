@@ -3,7 +3,7 @@ MLMC framework for XBeach
 
 This repository contains the model described in the paper
 
-*Mariana C. A. Clare, Matthew D. Piggott and Colin J. Cotter*, **Multilevel Monte Carlo methods for erosion and flood risk assessment in the coastal zone**, Computer Methods in Applied Mechanics and Engineering.
+*Mariana C. A. Clare, Matthew D. Piggott and Colin J. Cotter*, **Multilevel Monte Carlo methods for erosion and flood risk assessment in the coastal zone**, Coastal Engineering.
 
 
 Software requirements
